@@ -1,0 +1,36 @@
+#first_section{
+     background-image: url(../images/contactus/breadcumb-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.contact .form_lgo{
+    position: relative;
+    top: 48%;
+    left: 89%;
+    font-size: 16px;
+}
+.contact .contact_box{
+    height: 55px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-position: right 21px center;
+    box-shadow: none !important;  
+}
+.contact .btn_cont{ 
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    background-color:#0074ff;
+    color: #fff !important  ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 19px 30.5px; 
+}
+.contact .btn_cont:hover{
+    background-color: #1a1a1a !important ;
+    color: #fff !important;
+    transition: 0.2 ease-in-out !important;
+}

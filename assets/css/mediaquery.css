@@ -1,0 +1,202 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+     /* //navbar hovering */
+     .nav-item:hover .dm {
+        display: block !important;
+    }
+    .row_align{
+        margin-left: 30px;
+        }
+
+        /* //our customers */
+        .our_customers .client_img{   
+           width: 228px !important;
+          }
+          
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 991px) {
+    #pricing_plans .pricing_plan_box .btn_hover_box i {
+        color: #fff;
+        top: 24%;
+        left: 60%;
+    }
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    /* --------PAGES-SERVICE-CSS---------- */
+    #specialization .process_box{
+        max-width: 100%;
+    }
+    #consultation .btn_hover_box i{
+        top: 22%;
+    }
+    /* --------PAGES-SERVICE-CSS - END---------- */
+
+    /* ---------PAGES-SERVICE-DETAILS--------------- */
+    .query_text_box .btn_hover_box i {
+        top: 21%;
+        left: 82%;
+        z-index: 10;
+    }
+    /* ---------PAGES-SERVICE-DETAILS-END--------------- */
+
+
+    /* --------PAGES-PROJECT-CSS--------------- */
+    .project_hover_content {
+        bottom: 14px;
+        left: 22px;
+    }
+    /* --------PAGES-PROJECT-CSS END--------------- */
+
+    /* ------------PAGES-PRICING-CSS-------------- */
+    #pricing_plans .price_amount{
+        font-size: 3.0rem;
+    }
+    #pricing_plans .pricing_plan_box .btn_hover_box i {
+        color: #fff;
+        top: 24%;
+        left: 65%;
+    }
+    /* ------------PAGES-PRICING-CSS-END-------------- */
+
+
+    /* ---------------404 PAGE---------------------- */
+    .number_404{
+        font-size: 8rem;
+    }
+    .oops_text{
+        font-size: 1.5rem;
+    }
+    /* ---------------404 PAGE - END---------------------- */
+
+    /* -----------------SHOP- DETAILS-------------- */
+    #related_products .accessories:hover .btn_hover_box i {
+        right: 67%;
+        left: 37%;
+    }
+    #shop_products .accessories:hover .btn_hover_box i {
+        right: 67%;
+        left: 38%;
+        top: 52%;
+    }
+    /* ------------------------------------------------- */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* --------PAGES-PROJECT-CSS--------------- */
+    .icon_box {
+        height: 39px;
+        width: 39px;     
+    }
+    .icon_box i {
+        font-size: 13px;
+    }
+    .project_img_box img{
+        height: 300px;
+        object-fit: cover;
+    }
+    /* --------PAGES-PROJECT-CSS END--------------- */
+     /* ------------PAGES-PRICING-CSS-------------- */
+     #pricing_plans .price_amount{
+        font-size: 2.5rem;
+    }
+    /* ------------PAGES-PRICING-CSS-END-------------- */
+
+    /* --------PAGES - TEAMDETAILS-------------- */
+    #message_form .container .form form  {
+        width: 100%;
+    }
+    /* --------PAGES - TEAMDETAILS-END------------- */
+      /* -----------------SHOP- DETAILS-------------- */
+      #related_products .accessories:hover .btn_hover_box i {
+        right: 67%;
+        left: 36%;
+        top: 52%;
+    }
+      #shop_products .accessories:hover .btn_hover_box i {
+        right: 67%;
+        left: 36%;
+        top: 52%;
+    }
+    /* ------------------------------------------------- */
+}
+
+
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+      /* ------------PAGES-PRICING-CSS-------------- */
+      #pricing_plans .price_amount{
+        font-size: 2.0rem;
+    }
+    #pricing_plans .pricing_plan_box .btn_hover_box i {
+        color: #fff;
+        top: 24%;
+        left: 70%;
+    }
+    /* ------------PAGES-PRICING-CSS-END-------------- */
+
+      /* -----------------SHOP- DETAILS-------------- */
+    #related_products .accessories:hover .btn_hover_box i {
+        right: 67%;
+        left: 33%;
+        top: 52.5%;
+    }
+    #shop_products .accessories:hover .btn_hover_box i {
+        right: 67%;
+        left: 33%;
+        top: 52.5%;
+    }
+    /* ------------------------------------------------- */
+
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+    
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+   
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+    #related_products .accessories:hover .btn_hover_box i {
+        left: 31%;
+    }
+    #shop_products .accessories:hover .btn_hover_box i {
+        left: 31%;
+        top: 53%;
+    }
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+
+}
+
+
+
+

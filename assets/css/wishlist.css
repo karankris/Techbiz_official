@@ -1,0 +1,45 @@
+
+#first_section{
+    background-image: url(../images/contactus/breadcumb-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+.wishlist .btn_1{
+    border-radius: 0;
+    padding: 0;
+    font-size: 15px;
+    color:  #fff !important;
+    padding: 9px;
+}
+
+.table_primary th{
+    padding: 20px 0;
+}
+.input-group input{
+    border: 1px solid #9c9a9a;
+    outline:  none !important;
+    padding: 20px 20px;
+}
+ 
+.btn{
+    border-radius: 0 !important;
+}
+.btn:hover{
+    background-color: #000000;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.social_fnt{
+    font-size: 18px;
+    height: 30px !important;
+    width: 30px !important;
+    text-align: center !important;
+    padding: 6px 2px 21px !important;
+    border-radius: 20px !important;
+    color: #fff !important;
+    background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)) !important;
+}
+.input-group input{
+    padding: 20px;
+}

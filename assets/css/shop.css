@@ -1,0 +1,61 @@
+*{
+    /* transition: 0.2s !important; */
+}
+
+#shop_products .accessories .accessories_sale{
+    background-color: #0e5af2;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+}
+#shop_products .accessories:hover{
+    background-color: #0e5af2;
+    color: #fff;
+    border: 3px solid #0e5af2;
+}
+#shop_products .accessories .accessories_current_price{
+    font-size: 21px;
+}
+#shop_products .accessories:hover .accessories_current_price{
+    color: #fff !important;
+}
+#shop_products .accessories .btn_add_to_cart{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -100px) scale(0.8);
+    background-color: #0e5af2;
+    color: #fff;
+    opacity: 0;
+}
+#shop_products .accessories:hover .btn_add_to_cart{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -70px) scale(1);
+    background-color: #0e5af2;
+    color: #fff;
+    opacity: 1;
+
+}
+
+/* --------------------------- */
+.btn_add_to_cart{
+    background-color: #0e5af2;
+    color: #fff;
+    padding: 10px 22px;
+    font-size: 14px !important;
+}
+#shop_products .accessories .btn_hover_box i{
+    top: 53.5%;
+    right: 61%;
+    left: 35%;
+    transform: translate(-50% , -100px) scale(0.8);
+    color: #fff;
+    opacity: 0;
+}
+#shop_products .accessories:hover .btn_hover_box i {
+    top: 53%;
+    right: 56%;
+    left: 35%;
+    transform: translate(-50% , -70px) scale(1);
+    opacity: 1;
+}

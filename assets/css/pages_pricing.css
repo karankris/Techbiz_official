@@ -1,0 +1,117 @@
+*{
+    transition: 0.1s !important;
+}
+
+#pricing_plans .price_amount{
+    font-size: 3.5rem;
+}
+#pricing_plans .pricing_plan_box{
+    background-color: #f6f7fa;
+}
+#pricing_plans .pricing_plan_box:hover{
+    background-color: #0e5af2;
+    background: url(../images/pages/service/sr-bg-shape-2-1.png) #0e5af2;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+}
+#pricing_plans .pricing_plan_box .price_features{
+    background-color: #fff;    
+}
+#pricing_plans .pricing_plan_box .price_features .price_features_ul li i{
+    color: #0e5af2;
+}
+.get_a_quote{
+    color: #fff;
+    background: #0e5af2;
+ }
+ #pricing_plans .pricing_plan_box:hover .get_a_quote{
+    background-color: #fff !important;
+    color: #0e5af2 !important;
+}
+#pricing_plans .pricing_plan_box .get_a_quote:hover{
+    color: #fff !important;
+}
+#pricing_plans .pricing_plan_box .btn_hover_box:hover i{
+    color: #fff !important;
+}
+
+#pricing_plans .pricing_plan_box:hover .btn_hover_style span {
+    background-color: #fff;
+}
+#pricing_plans .pricing_plan_box  .btn_hover_style span:nth-child(5) {
+    background-color: black !important;
+}
+#pricing_plans .pricing_plan_box  .btn_hover_style {
+    font-size: 16px;
+}
+#pricing_plans .pricing_plan_box  .btn_hover_style {
+    padding: 13px 69px;
+}
+#pricing_plans .pricing_plan_box  .btn_hover_style:hover{
+    color: #fff !important;
+}
+#pricing_plans .pricing_plan_box  .btn_hover_box i {
+    color: #fff;
+    top: 24%;
+    left: 70%;
+}
+#pricing_plans .pricing_plan_box:hover .btn_hover_box i{
+    color: #0e5af2;
+}
+
+#pricing_plans .pricing_plan_box:hover .plan_scheme , #pricing_plans .pricing_plan_box:hover .price_amount ,#pricing_plans .pricing_plan_box:hover .price_duration{
+    color: #fff
+}
+ 
+
+
+/* ---------consultation---------- */
+#consultation{
+    background: url(../images/pages/service/cta-bg-1-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#consultation .get_a_quote{
+   color: #fff;
+   background: #0e5af2;
+}
+
+/* ----------------------------------- */
+
+
+#weekly_update .weekly_update_box .weekly_update_details a{
+    color: #000;
+}
+#weekly_update .weekly_update_box .weekly_update_details a:hover{
+    color: #0e5af2;
+}
+
+/* ------------ */
+.hover-underline-animation {
+    position: relative;
+    color: #0e5af2 !important;
+    text-decoration: none;
+  }
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0e5af2;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+}
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+  }
+
+  /* --------------- */
+  .item:hover{
+      cursor: grab;
+  }

@@ -1,0 +1,94 @@
+.blogs_s1{
+    background-image: url(../images/blogs/breadcumb-bg.jpg);
+    background-repeat: no-repeat;
+   
+}
+.home_slash{
+    position: relative;
+}
+.img_size{
+    height: 50px;
+    width: 70px;
+}
+button.owl-prev, button.owl-next{
+    outline: none !important;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.home_slash::before{
+    content: '/';
+    position: absolute;
+    top: 0;
+    margin:0 2px;
+    font-weight: 400;
+}
+.smoke_bg{
+    background-color: #EFF1F5;
+}
+.quote_parent{
+    border: none !important;
+}
+.quote_parent .border_left{
+border-left: 5px solid #3b44f0;
+}
+.quote_col{
+    position: relative;
+}
+.quote_col::before{
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/blogs/quotation.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 68px;
+   right: 20px;
+    opacity: 0.05;
+}
+.divider{
+    margin: 10px 0px;
+    height: 1px;
+    width: 100%;
+    background-color: #a2a2a2;
+}
+
+
+.blogs_s2 .mid_line{
+height: 1px;
+width: 95%;
+background-color: #d4d4d8;
+}
+.blogs_s2 .blue_line{
+    height: 1px;
+    width: 8%;
+    background-color: #020224;  
+}
+
+.blog_contain i{
+    font-size: 8px;
+}
+
+/* features forms */
+
+.form_s2 form input,.form_s2 form textarea{
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background: #fff;
+}
+.form_s2 form input:focus,
+.form_s2 form textarea:focus {
+outline: none !important;
+}
+.form_s2 form ::placeholder {
+    color: #1f1e1e; /* Set the placeholder text color */
+  }
+.form_s2 form  input[type="checkbox"]:checked {
+    background-color: #3498db;
+  }
+
+.reply_forms button:hover{
+    color: #3498db;
+}

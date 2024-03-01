@@ -1,0 +1,126 @@
+
+
+/* -----SERVICES-------- */
+
+.read_more{
+    background: #eff1f5;
+    color: #0e5af2;
+}
+#services .service_box_content{
+   
+    z-index: 3;
+    
+}
+#services .service_box:hover .service_box_content{
+    color: #fff;
+    
+}
+#services .service_box_bg_img{
+    background-image: url(../images/pages/service/sr-bg-shape-2-1.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 0.4s !important;
+    transform: scale(1.15);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#services .service_box:hover .service_box_bg_img{
+   
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    /* z-index: 10; */
+}
+#services .service_box:hover {
+   background: #0e5af2;
+}
+
+
+/* ---------consultation---------- */
+#consultation{
+    background: url(../images/pages/service/cta-bg-1-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* color: #fff; */
+}
+
+
+/* ----------------------------------- */
+
+/* ----------specialization------------- */
+
+#specialization{
+    background: url(../images/pages/service/process-bg-3-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#specialization .process_box{
+    text-align: center;
+    max-width: 290px;
+    margin: 0 0 5px 0;
+}
+#specialization .process_arrow{
+    right: -55%;
+    top: 10%;
+}
+#specialization .process_icon{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    margin: 22.5px 0 25px 0;
+    box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
+    border-radius: 5px;
+}
+#specialization .process_number{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #0e5af2;
+    color: #fff;
+    margin: -22.5px -22.5px 0 0;
+    border-radius: 50%;
+}
+/* -------------------------------- */
+
+/* ----------customer_feedback---------------- */
+
+#customer_feedback .customer_box{
+    background-color: #f8f8f9;
+    
+}
+#customer_feedback .customer_box .quote_box{
+    width: fit-content;
+    background-color: #fff;
+   
+    
+}
+#customer_feedback .customer_box .quote_box i{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 24px;
+    background-color: #0e5af2;
+    text-align: center;
+    display: inline-block;
+   
+    
+}

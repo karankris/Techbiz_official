@@ -1,0 +1,122 @@
+.owl-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot.active{
+    margin:5px ;
+    background-color: rgb(14, 14, 248);
+    border-radius: 10%;
+    height: 45px;
+    width: 45px;
+    color: #fff;
+font-size: 20px;
+
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    border-radius: 5%;
+    height: 45px;
+    width: 45px;
+    margin:5px ;
+    color: #000;
+transition: 2s hover color;
+font-size: 20px;
+}
+.now_color{
+    color:rgb(14, 14, 248);
+}
+.home_slash{
+    position: relative;
+}
+.home_slash::before{
+    content: '/';
+    position: absolute;
+    top: 0;
+    margin:0 4px;
+    font-weight: 400;
+}
+.card_shadow{
+box-shadow: 0 10px 30px hsla(0, 3%, 94%, 0.993);
+}
+.card_shadow .hover_blog{
+    color: black;
+}
+.card_shadow .hover_blog:hover{
+    color: #0d6efd;
+}
+.blogs_s1{
+    background-image: url(../images/blogs/breadcumb-bg.jpg);
+    background-repeat: no-repeat;
+}
+.home_slash{
+    position: relative;
+}
+.img_size{
+    height: 50px;
+    width: 70px;
+}
+.smoke_bg{
+    background-color: #EFF1F5;
+}.divider{
+    margin: 10px 0px;
+    height: 1px;
+    width: 100%;
+    background-color: #a2a2a2;
+}
+
+
+.blogs_s2 .mid_line{
+height: 1px;
+width: 95%;
+background-color: #d4d4d8;
+}
+.blog_contain i{
+    font-size: 8px;
+}
+
+.img_contain{
+    position: relative;
+}
+.play_icon{
+    font-size: 28px;
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: #0d6efd;
+    border-radius: 50%;
+}
+/* moddal */
+.modal-content{
+    background-color: transparent !important;
+    border: none; 
+    background: transparent !important;
+}
+
+#videoModal .modal-body{
+    position: relative;
+    padding: 0;
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close,.close:hover{
+    color: white !important;
+    outline: none !important;
+    background: transparent !important;
+}
+#videoModal iframe {
+    width: 100%;
+    height: 100%;
+}

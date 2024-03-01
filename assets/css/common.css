@@ -1,0 +1,232 @@
+@font-face {
+    font-family: Robotto_Reguler;
+    src: url('../fonts/Roboto-Regular.ttf') format("opentype")
+}
+@font-face {
+    font-family: Robotto_Bold;
+    src: url('../fonts/Roboto-Bold.ttf') format("opentype")
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Robotto_Bold; 
+}
+p,label,span,a,.btn,button,li,::placeholder{
+    font-family: Robotto_Reguler;
+}
+body {
+    margin: 0;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.line_height{
+    line-height: 2.5rem;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.cursor_pointer{
+    cursor: pointer;
+}
+.main_font_color{
+    color: #0e5af2;
+}
+/* .get_a_quote:hover{
+  
+    background: #000 !important;
+ } */
+
+
+ .btn_hover_style{
+    position: relative;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    text-transform: uppercase;
+    z-index: 1;
+ }
+ 
+.btn_hover_style span:nth-child(5) {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    top: 0%;
+    left: 0;
+}
+
+.btn_hover_style span {
+    background-color: #0E5AF2;
+    position: absolute;
+    height: 51%;
+    width: 51%;
+    z-index: -1;
+    transition: all .5s ease-in-out;
+}
+
+.btn_hover_style span:nth-child(1) {
+    left: 0;
+    top: 0;
+}
+
+.btn_hover_style span:nth-child(2) {
+    left: 0;
+    bottom: 0;
+}
+
+.btn_hover_style span:nth-child(3) {
+    right: 0;
+    top: 0;
+}
+
+.btn_hover_style span:nth-child(4) {
+    right: 0;
+    bottom: 0;
+}
+
+.btn_hover_style:hover span:nth-child(1) {
+    top: -50%;
+    left: -50%;
+}
+
+.btn_hover_style:hover span:nth-child(2) {
+    bottom: -50%;
+    left: -50%;
+}
+
+.btn_hover_style:hover span:nth-child(3) {
+    top: -50%;
+    right: -50%;
+}
+
+.btn_hover_style:hover span:nth-child(4) {
+    bottom: -50%;
+    right: -50%;
+}
+
+.btn_hover_box i{
+    top: 39%;
+    left: 82%;
+    z-index: 10;
+}
+
+/* -------FIRST_SECTION-------------- */
+#first_section{
+    /* -------SET BACKGROUND IMAGE HERE------- */
+    background: url(../images/pages/service/breadcumb-bg.jpeg);
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#first_section .home_link{
+    white-space: normal;
+   
+    word-break: break-word;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+#first_section .home_link:after{
+    content: "/";
+    position: relative;
+    margin: 0 5px 0 10px;
+}
+#first_section .current_page_title , #first_section .current_page{
+    color: #fff
+}
+
+
+
+
+/* -------FIRST_SECTION-------------- */
+#first_section{
+    /* -------SET BACKGROUND IMAGE HERE------- */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#first_section .home_link{
+    white-space: normal;
+    color: inherit;
+    word-break: break-word;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff
+}
+#first_section .home_link:after{
+    content: "/";
+    position: relative;
+    margin: 0 5px 0 10px;
+}
+#first_section .current_page_title , #first_section .current_page{
+    color: #fff
+}
+/* -----------------------------font -family -------------------- */
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/Montserrat-Bold_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold_0;
+    src: url('../fonts/Montserrat-SemiBold_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-Regular_0;
+    src: url('../fonts/Montserrat-Regular_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-Light_0;
+    src: url('../fonts/Montserrat-Light_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-Medium_0;
+    src: url('../fonts/Montserrat-Medium_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-ExtraLight_0;
+    src: url('../fonts/Montserrat-ExtraLight_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-Thin_0;
+    src: url('../fonts/Montserrat-Thin_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Amigos-7BL14;
+    src: url('../fonts/Amigos-7BL14.ttf') format("opentype")
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #1eb2a6;
+}
+.btn:focus {
+    box-shadow: none;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}

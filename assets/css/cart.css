@@ -1,0 +1,41 @@
+.cart_s1{
+    background-image: url(../images/blogs/breadcumb-bg.jpg);
+    background-repeat: no-repeat;
+   
+}
+.home_slash{
+    position: relative;
+}
+
+.home_slash::before{
+    content: '/';
+    position: absolute;
+    top: 0;
+    margin:0 2px;
+    font-weight: 400;
+}
+.smoke_bg{
+    background-color: #EFF1F5;
+}
+
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: #a2a2a2;
+}
+
+.table_primary2{
+    background-color: #b2d6f6b6 !important;
+}
+.table_primary{
+    background-color: #0000ff !important;
+    color: #fff !important;
+}
+.table_primary th{
+    padding: 20px 0;
+}
+.input-group input{
+    border: 1px solid #9c9a9a;
+    outline:  none !important;
+    padding: 20px 20px;
+}

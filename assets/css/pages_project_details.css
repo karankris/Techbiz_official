@@ -1,0 +1,31 @@
+
+
+.project_info{
+    background-color: #eff1f5;
+}
+.project_info .project_info_box{
+    border-bottom: 1px solid #dadfec;
+}
+.project_info .project_info_box .project_info_icon_box{
+    color: #0e5af2;
+    width: 53px;
+    height: 53px;
+    font-size: 18px;
+    background: #fff;
+}
+.project_info .project_info_box  .project_info_user_name{
+    color: #0e5af2;
+}
+
+/* ---------------------- */
+
+.need_any_help_box{
+    background: url(../images/pages/service/sr-bg-shape-2-1.png) #0e5af2;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.need_any_help_contact i{
+    transform: rotate(90deg);
+}

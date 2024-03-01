@@ -1,0 +1,47 @@
+.blogs_s1{
+    background-image: url(../images/blogs/breadcumb-bg.jpg);
+    background-repeat: no-repeat;
+   
+}
+.home_slash{
+    position: relative;
+}
+
+.home_slash::before{
+    content: '/';
+    position: absolute;
+    top: 0;
+    margin:0 2px;
+    font-weight: 400;
+}
+.smoke_bg{
+    background-color: #EFF1F5;
+}
+
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: #a2a2a2;
+}
+
+
+
+.form_s2 form input,.form_s2 form textarea{
+    border: 1px solid #ddd ;
+    box-sizing: border-box;
+    background: #fff;
+}
+.form_s2 form input:focus,
+.form_s2 form textarea:focus {
+outline: none !important;
+}
+.form_s2 form ::placeholder {
+    color: #1f1e1e; /* Set the placeholder text color */
+  }
+.form_s2 form  input[type="checkbox"]:checked {
+    background-color: #3498db;
+  }
+
+.reply_forms button:hover{
+    color: #3498db;
+}

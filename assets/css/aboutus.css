@@ -1,0 +1,176 @@
+.about_s1{
+    background-image: url(../images/blogs/breadcumb-bg.jpg);
+    background-repeat: no-repeat;
+   
+}
+.about_s1 .home_slash{
+    position: relative;
+}
+
+.about_s1 .home_slash::before{
+    content: '/';
+    position: absolute;
+    top: 0;
+    margin:0 4px;
+    padding: 0 4px;
+    font-weight: 400;
+}
+
+
+/* -----SERVICES-------- */
+
+.read_more{
+    color: #0e5af2;
+}
+#services .service_box_content{
+   
+    z-index: 3;
+    
+}
+#services .service_box:hover .service_box_content{
+    color: #fff;
+    
+}
+#services .service_box_bg_img{
+    background-image: url(../images/aboutus/serv_Bg.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 0.4s !important;
+    transform: scale(1.15);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#services .service_box:hover .service_box_bg_img{
+   
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    /* z-index: 10; */
+}
+#services .service_box:hover .read_more{
+   color: #fff;
+}
+#services .service_box:hover {
+   background: #0e5af2;
+}
+
+
+.btn_tech{
+    color: #fff;
+    background-color: #0e5af2;
+    transition:background-color 0.3s ease-in;
+ }
+ .btn_tech:hover{
+    background-color: #000000;
+    color: #fff;
+ }
+ 
+ 
+ /* Inspiring Tech Needs For Business */
+.about_us{
+    background: url(../images/aboutus/call_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about_us .border_left{
+border-left:2px solid #0e5af2;
+}
+/* reviews */
+.reviews{
+    background: url(../images/aboutus/testi-bg-4-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+.reviews .owl-carousel .card1{
+box-shadow:0px 10px 15px #e6e4e4;
+}
+/* teams */
+.teams .img_contain1,.img_contain2,.img_row{
+    position: relative;
+    background: #fff;
+    z-index: 999;
+    overflow: hidden;
+}
+.teams .img_contain1{
+    transition:opacity 5s ease-in-out;
+}
+.teams .img_contain1:hover .x1,.teams .img_contain1:hover .x2,.teams .img_contain1:hover .icons_contain{
+    opacity: 1;
+    cursor: pointer;
+}
+.teams .img_contain1:hover .team_mem{
+    background-color: #f0efef;
+}
+.teams .icons_contain{
+    position: absolute;
+    bottom: 30px;
+    height: 40px;
+    width: 70%;
+    background-color: #0e5af2;
+    opacity: 0;
+}
+.teams .icons_contain i{
+    font-size: 15px;
+    color: #fff;
+}
+.teams .img_contain2 .x1{
+    content: "";
+    clear: both;
+    display: flex;
+    transform: skewX(23.995deg);
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 76%;
+    background: rgba(83, 142, 237, 0.637);
+    z-index: 0;
+    opacity: 0;
+}
+.teams .img_contain2 .x2{
+    content: "";
+    clear: both;
+    display: flex;
+    transform: skewX(23.995deg);
+    width: 356px;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 33%;
+    background: #1020394d;
+    z-index: 0;
+    opacity: 0;
+}
+/* ---------consultation---------- */
+#consultation{
+    background: url(../images/aboutus/consult_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#consultation .get_a_quote{
+   color: #fff;
+   background: #0e5af2;
+}
+/* -------------latest blogs--------------- */
+.latest_blogs .head1{
+color: #000000;
+transition: color 2s ease-in;
+}
+.latest_blogs .head1:hover{
+    color: #0e5af2;
+}
+.latest_blogs .read_more{
+    transition:text-decoration 4s ease-in ;
+}
+.latest_blogs .read_more:hover{
+text-decoration: underline;
+}

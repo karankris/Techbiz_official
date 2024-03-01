@@ -1,0 +1,89 @@
+*{
+    transition: 0.4s !important;
+}
+
+.teammate_box{
+    box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
+}
+.teammate_box:hover img{
+    transform: scale(1.15);
+}
+.teammate_box .social_media_box{
+    bottom: 0;
+    left: 30px;
+    right: 30px;
+    background: #0e5af2;
+    color: #fff;
+}
+.teammate_box .social_media_box , .teammate_box .social_media_box a {
+    opacity: 0;
+    visibility: hidden;
+}
+.teammate_box .social_media_box a:nth-child(1){
+    transform: translateY(-15px);
+}
+.teammate_box .social_media_box a:nth-child(2){
+    transform: translateY(-20px);
+}
+.teammate_box .social_media_box a:nth-child(3){
+    transform: translateY(-30px);
+}
+.teammate_box .social_media_box a:nth-child(4){
+    transform: translateY(-40px);
+}
+.teammate_box .social_media_box a:nth-child(5){
+    transform: translateY(-50px);
+}
+.teammate_box:hover .social_media_box{
+    opacity: 1;
+    visibility: visible;
+}
+.teammate_box:hover .social_media_box a{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.teammate_box:hover .team_name_designation{
+    background-color: rgba(169, 177, 193, 0.17);
+}
+
+
+
+.teammate_name{
+    color: #000;
+}
+
+
+/* ---------consultation---------- */
+#consultation{
+    background: url(../images/pages/service/cta-bg-1-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#consultation .get_a_quote{
+   color: #fff;
+   background: #0e5af2;
+}
+
+
+
+
+
+/* <!-- ---------Connecting people----------------- --> */
+
+.con_people .pro_out{
+    box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
+    border: 1px solid #d5e0f5;
+    height: 16px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.con_people .pro_inner{
+    height: 100%;
+    background-color: #0e5af2;
+    border-radius: inherit;
+    box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
+}
